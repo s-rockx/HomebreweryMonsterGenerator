@@ -35,13 +35,15 @@ def create_homebrewery_from_text():
     skills_etc_string = create_skills_etc_string(monster_text)
 
     # get traits and action section separately
-    traits_start = monster_text.index('Traits\n')
+    # TODO traits are not mentioned on aidedd, othewise could work
+    traits_start = monster_text.find('Traits\n')
     actions_start = monster_text.index('Actions\n')
 
     if traits_start != -1:
         # only search trait section
         traits_string = create_traits_string(monster_text[traits_start+7:actions_start])
-
+    else:
+        traits_string = ''
 
     # TODO deal with legendary actions
 

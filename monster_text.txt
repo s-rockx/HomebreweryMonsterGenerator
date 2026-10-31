@@ -1,29 +1,53 @@
-Chuul
-Large aberration, chaotic evil
-https://www.aidedd.org/dnd/images/chuul.jpg
-Armor Class 16 (natural armor)
-Hit Points 93 (11d10 + 33)
-Speed 30 ft., swim 30 ft.
-STR
-19 (+4)DEX
-10 (+0)CON
-16 (+3)INT
-5 (-3)WIS
-11 (+0)CHA
-5 (-3)
-Skills Perception +4
-Damage Immunities poison
-Condition Immunities poisoned
-Senses darkvision 60 ft., passive Perception 14
-Languages understands Deep Speech but can't speak
-Challenge 4 (1100 XP)
-Amphibious. The chuul can breathe air and water.
+Aboleth
+Large Aberration, Lawful Evil
 
-Sense Magic. The chuul senses magic within 120 feet of it at will. This trait otherwise works like the detect magic spell but isn't itself magical.
+Armor Class 17 (natural armor)
+Hit Points 135 (18d10 + 36)
+Speed 10 ft., Swim 40 ft.
+
+STR
+21 (+5)
+DEX
+9 (-1)
+CON
+15 (+2)
+INT
+18 (+4)
+WIS
+15 (+2)
+CHA
+18 (+4)
+
+Saving Throws CON +6, INT +8, WIS +6
+Skills History +12, Perception +10
+Senses Darkvision 120 ft., Passive Perception 20
+Languages Deep Speech, Telepathy 120 ft.
+Challenge 10 (5,900 XP)
+Proficiency Bonus +4
+
+Traits
+Amphibious. The aboleth can breathe air and water.
+
+Mucous Cloud. While underwater, the aboleth is surrounded by transformative mucus. A creature that touches the aboleth or that hits it with a melee attack while within 5 feet of it must make a DC 14 Constitution saving throw. On a failure, the creature is diseased for 1d4 hours. The diseased creature can breathe only underwater.
+
+Probing Telepathy. If a creature communicates telepathically with the aboleth, the aboleth learns the creature’s greatest desires if the aboleth can see the creature.
 
 Actions
-Multiattack. The chuul makes two pincer attacks. If the chuul is grappling a creature, the chuul can also use its tentacles once.
+Multiattack. The aboleth makes three tentacle attacks.
 
-Pincer. Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage. The target is grappled (escape DC 14) if it is a Large or smaller creature and the chuul doesn't have two other creatures grappled.
+Tentacle. Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Constitution saving throw or become diseased. The disease has no effect for 1 minute and can be removed by any magic that cures disease. After 1 minute, the diseased creature’s skin becomes translucent and slimy, the creature can’t regain hit points unless it is underwater, and the disease can be removed only by heal or another disease-curing spell of 6th level or higher. When the creature is outside a body of water, it takes 6 (1d12) acid damage every 10 minutes unless moisture is applied to the skin before 10 minutes have passed.
 
-Tentacles. One creature grappled by the chuul must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. Until this poison ends, the target is paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+Tail. Melee Weapon Attack: +9 to hit, reach 10 ft. one target. Hit: 15 (3d6 + 5) bludgeoning damage.
+
+Enslave (3/Day). The aboleth targets one creature it can see within 30 feet of it. The target must succeed on a DC 14 Wisdom saving throw or be magically charmed by the aboleth until the aboleth dies or until it is on a different plane of existence from the target. The charmed target is under the aboleth’s control and can’t take reactions, and the aboleth and the target can communicate telepathically with each other over any distance.
+
+Whenever the charmed target takes damage, the target can repeat the saving throw. On a success, the effect ends. No more than once every 24 hours, the target can also repeat the saving throw when it is at least 1 mile away from the aboleth.
+
+Legendary Actions
+The aboleth can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The aboleth regains spent legendary actions at the start of its turn.
+
+Detect. The aboleth makes a Wisdom (Perception) check.
+
+Tail Swipe. The aboleth makes one tail attack.
+
+Psychic Drain (Costs 2 Actions). One creature charmed by the aboleth takes 10 (3d6) psychic damage, and the aboleth regains hit points equal to the damage the creature takes.

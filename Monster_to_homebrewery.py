@@ -3,6 +3,8 @@ A python script to convert plain, copied DnD beyond monster to homebrewery forma
 
 Currently does not support multi-paragraph action descriptions or Legendary actions
 """
+
+#TODO make it work for dnd wikidot / 5etools
 import regex as re
 
 # PATTERNS
@@ -25,7 +27,7 @@ def create_homebrewery_from_text():
     creature_type = re.findall(line_pattern, monster_text)[1] # second line
     # link if link is copied in on third line
     picture_link = re.findall(line_pattern, monster_text)[2]  # second line
-    if not picture_link.startswith(picture_link):
+    if not picture_link.startswith('https'):
         picture_link = '' # don't put in link if not provided
     ac = re.findall(ac_pattern, monster_text)[0]
     hp_and_hitdice = re.findall(hp_pattern, monster_text)[0]
@@ -123,7 +125,7 @@ def create_skills_string(monster_text):
     for skill in ['STR', 'DEX', 'CON', 'INT', 'WIS', 'CHA']:
         pattern = f'{skill}\n([0-9]+)'
         match = re.findall(pattern, monster_text)
-        skill_modifier = match[0]
+        skill_modifier = match[0] if match else 10
         skill_string += f"{skill_modifier} {mod(int(skill_modifier))}|"
     return skill_string
 

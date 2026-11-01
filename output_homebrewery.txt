@@ -1,50 +1,58 @@
 {{monster,frame,wide
-## Aboleth
-*Large Aberration, Lawful Evil*
-
-![Aboleth_picture]() {width:200px,wrapRight}
+## Vampire Umbral Lord
+*Small or Medium Undead, Lawful Evil*
 ___
-**Armor Class** :: 17 
-**Hit Points**  :: 135 (18d10 + 36)
-**Speed**       :: 10 ft., Swim 40 ft.
+- **Armor Class** 16
+- **Hit Points** 187 (22d8 + 88)
+- **Speed** 40 ft., Climb 40 ft., Fly 40 ft. (hover)
+- **Initiative** +14 (24)
 ___
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|21 +5|9 +0|15 +2|18 +4|15 +2|18 +4|
+|STR|DEX|CON|INT|WIS|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|20 (+5)|18 (+4)|18 (+4)|19 (+4)|16 (+3)|21 (+5)|
 ___
-**Saving Throws** :: CON +6, INT +8, WIS +6
-**Skills** :: History +12, Perception +10
-**Senses** :: Darkvision 120 ft., Passive Perception 20
-**Languages** :: Deep Speech, Telepathy 120 ft.
-**Proficiency Bonus** :: +4
+- **Saving Throws** Str +10, Dex +9, Wis +8, Cha +10
+- **Skills** Arcana +9, Perception +13, Stealth +9
+- **Immunities** Cold, Necrotic; Charmed, Exhaustion
+- **Senses** Blindsight 120 ft., Passive Perception 23
+- **Languages** Common plus three other languages
+- **Challenge** 15 (XP 13.000, or 15.000 in lair; PB +5)
+- **Proficiency Bonus** +5
 ___
-### Traits
-***Amphibious.***  The aboleth can breathe air and water.
+***Legendary Resistance (3/Day, or 4/Day in Lair).*** If the vampire fails a saving throw, it can choose to succeed instead.  
 
-***Mucous Cloud.***  While underwater, the aboleth is surrounded by transformative mucus. A creature that touches the aboleth or that hits it with a melee attack while within 5 feet of it must make a DC 14 Constitution saving throw. On a failure, the creature is diseased for 1d4 hours. The diseased creature can breathe only underwater.
+***Shadow Escape.*** If the vampire drops to 0 Hit Points outside its resting place, it teleports into its resting place unless it is in running water or sunlight. If it can't teleport, it is destroyed. Once inside its resting place, it has the Paralyzed condition for 1 hour, after which it regains 1 Hit Point.  
 
-***Probing Telepathy.***  If a creature communicates telepathically with the aboleth, the aboleth learns the creature’s greatest desires if the aboleth can see the creature.
-
-:
+***Vampire Weakness.*** The vampire has these weaknesses:  
+- **Forbiddance.** The vampire can't enter a residence without an invitation from an occupant.
+- **Running Water.** The vampire takes 20 Acid damage if it ends its turn in running water.
+- **Stake to the Heart.** If a weapon that deals Piercing damage is driven into the vampire's heart while the vampire has the Incapacitated condition in its resting place, the vampire has the Paralyzed condition until the weapon is removed.
+- **Sunlight.** The vampire takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks.
 
 ### Actions
-***Multiattack.***  The aboleth makes three tentacle attacks.
+***Multiattack.*** The vampire makes two attacks, using Grave Strike or Sickening Ray in any combination.  
 
-***Tentacle.***  Melee Weapon Attack: +9 to hit, reach 10 ft., one target. *Hit:* 12 (2d6 + 5) bludgeoning damage. If the target is a creature, it must succeed on a *DC 14* Constitution saving throw or become diseased. The disease has no effect for 1 minute and can be removed by any magic that cures disease. After 1 minute, the diseased creature’s skin becomes translucent and slimy, the creature can’t regain hit points unless it is underwater, and the disease can be removed only by heal or another disease-curing spell of 6th level or higher. When the creature is outside a body of water, it takes 6 (1d12) acid damage every 10 minutes unless moisture is applied to the skin before 10 minutes have passed.
+***Grave Strike.*** *Melee Attack Roll:*  +10, reach 5 ft. *Hit:* 9 (1d8 + 5) Slashing damage plus 13 (3d8) Necrotic damage.  
 
-***Tail.***  Melee Weapon Attack: +9 to hit, reach 10 ft. one target. *Hit:* 15 (3d6 + 5) bludgeoning damage.
+***Hunger of Hadar (Recharge 5–6).*** The vampire casts *Hunger of Hadar* (level 5 version), requiring no spell components and using Charisma as the spellcasting ability (spell save DC 18).  
 
-***Enslave (3/Day).***  The aboleth targets one creature it can see within 30 feet of it. The target must succeed on a *DC 14* Wisdom saving throw or be magically charmed by the aboleth until the aboleth dies or until it is on a different plane of existence from the target. The charmed target is under the aboleth’s control and can’t take reactions, and the aboleth and the target can communicate telepathically with each other over any distance.
+***Sickening Ray.*** *Ranged Attack Roll:*  +10, range 120 ft. *Hit:* 16 (2d10 + 5) Necrotic damage, and the target has the Poisoned condition until the start of the vampire's next turn.  
 
-***Whenever the charmed target takes damage, the target can repeat the saving throw.***  On a success, the effect ends. No more than once every 24 hours, the target can also repeat the saving throw when it is at least 1 mile away from the aboleth.
+### Bonus Actions
+***Sanguine Drain.*** *Constitution Saving Throw:* DC 18, one creature the vampire can see within 30 feet that isn't a Construct or an Undead. *Failure:* 14 (4d6) Necrotic damage. The target's Hit Point maximum decreases by an amount equal to the damage taken, and the vampire regains Hit Points equal to that amount.  
 
-***The aboleth can take 3 legendary actions, choosing from the options below.***  Only one legendary action option can be used at a time and only at the end of another creature’s turn. The aboleth regains spent legendary actions at the start of its turn.
+### Legendary Actions
+*Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the vampire umbral lord can expend a use to take one of the following actions. The vampire umbral lord regains all expended uses at the start of each of its turns.*
 
-***Detect.***  The aboleth makes a Wisdom (Perception) check.
+- **Beguile.** The vampire casts *Command*, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 18). The vampire can't take this action again until the start of its next turn.  
 
-***Tail Swipe.***  The aboleth makes one tail attack.
+- **Umbral Strike.** The vampire moves up to half its Speed, and it makes one Grave Strike or Sickening Ray attack.
 
-***Psychic Drain (Costs 2 Actions).***  One creature charmed by the aboleth takes 10 (3d6) psychic damage, and the aboleth regains hit points equal to the damage the creature takes.
+### Regional Effects
+The region containing a vampire's lair is warped by its presence, creating the following effects:
+- **Children of the Night.** The vampire exerts influence over the animals in its domain. From dusk until dawn, Medium or smaller Beasts have the Charmed condition while within 1 mile of the lair.
+- **Looming Shadows.** Shadows within 1 mile of the lair seem to move as if alive. Any creature (excluding the vampire and its allies) that finishes a Short Rest while within 1 mile of the lair must succeed on a DC 15 Wisdom saving throw or gain no benefit from that rest.
+- **Mists.** The area within 1 mile of the lair is Lightly Obscured by a persistent, creeping fog. The vampire and any creatures of its choice are unaffected by the fog.
 
-: 
+If the vampire dies or moves its lair elsewhere, these effects end immediately.
 }}
